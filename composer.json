@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "davidstrada/unit-conversion",
+    "description": "unit-conversion",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "davidstrada",
+        "unit-conversion"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/davidstrada/unit-conversion",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "David",
+            "email": "idavid@fastmail.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Davidstrada\\UnitConversion\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Davidstrada\\UnitConversion\\Tests\\": "tests"
         }
     },
     "scripts": {
