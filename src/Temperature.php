@@ -16,7 +16,7 @@ class Temperature
         return ($this->celsius * 1.8) + 32;
     }
 
-    public static function forCelsius(float $celsius)
+    public static function fromCelsius(float $celsius) : self
     {
         return new static($celsius);
     }
