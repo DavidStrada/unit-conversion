@@ -19,8 +19,8 @@ composer require davidstrada/unit-conversion
 ## Usage
 
 ```php
-$skeleton = new Davidstrada\UnitConversion();
-echo $skeleton->echoPhrase('Hello, Davidstrada!');
+$lbs = Weight::fromKilograms(100)->toLbs();
+$this->assertEquals(220.4623, $lbs);
 ```
 
 ## Testing

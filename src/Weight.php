@@ -4,7 +4,7 @@ namespace Davidstrada\UnitConversion;
 
 class Weight
 {
-    private $kilograms;
+    private float $kilograms;
 
     public function __construct(float $kilograms)
     {
